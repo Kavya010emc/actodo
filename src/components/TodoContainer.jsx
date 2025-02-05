@@ -1,5 +1,9 @@
 import AddTodoForm from "./Todoform"
+<<<<<<< HEAD
 import Todolist from "./Todolist"
+=======
+import TodoList from "./TodoList";
+>>>>>>> eacc89bc28f09532e8802dc320bb5c3822bcb6ec
 import { useState } from "react"
 
 function TodoContainer()
