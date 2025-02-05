@@ -1,8 +1,28 @@
-# React + Vite
+To install a Vite React app, open your terminal and run:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm create vite@latest actodo --template react
 
-Currently, two official plugins are available:
+Then, navigate into your project folder:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+cd actodo
+
+Install dependencies:
+
+npm install
+
+Finally, start the development server:
+
+npm run dev
+
+Your Vite React app should now be running locally!
+
+
+
+install tailwind css in vite 
+https://tailwindcss.com/docs/installation/using-vite
+
+install router 
+
+To install React Router in your Vite React app, follow these steps:
+
+npm install react-router-dom
