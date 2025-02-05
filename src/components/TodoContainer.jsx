@@ -1,5 +1,5 @@
 import AddTodoForm from "./Todoform"
-import TodoList from "./TodoList"
+import Todolist from "./Todolist"
 import { useState } from "react"
 
 function TodoContainer()
@@ -23,7 +23,7 @@ function TodoContainer()
         <div>
             <div className="flex gap-5 flex-wrap">
                 <AddTodoForm  activityArr={activityArr} setActivityArr={setActivityArr}/>
-                <TodoList activityArr={activityArr} setActivityArr={setActivityArr}/>
+                <Todolist activityArr={activityArr} setActivityArr={setActivityArr}/>
             </div>
         </div>
     )
