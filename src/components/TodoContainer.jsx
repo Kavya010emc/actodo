@@ -1,5 +1,5 @@
 import AddTodoForm from "./Todoform"
-import TodoList from './components/TodoList';  // If it's inside a subfolder"
+import TodoList from './TodoList';
 import { useState } from "react"
 
 function TodoContainer()
